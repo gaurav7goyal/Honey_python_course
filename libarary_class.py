@@ -26,6 +26,9 @@ class Libarary():
         store.append(book)
 
     def borrowed_book(self, title, borrowed_name):
+        '''
+        Based on title and borrowed_name provide book to user
+        '''
         book = [ i  for i in store if i.title == title ]
         print(book)
         book[0].borrowed = borrowed_name
