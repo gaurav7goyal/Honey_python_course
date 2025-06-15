@@ -44,6 +44,18 @@ class Libarary():
     def show_status(self, title):
         pass 
 
+    def issued_book(self):
+        '''
+        return Book title and borrowed Name 
+        '''
+        pass
+    def total_book(self):
+        '''
+        Return Total book count
+        '''
+        pass
+    
+
 lib = Libarary()
 b1= Book('python','Robert')
 lib.add_book(b1)
